@@ -24,18 +24,12 @@ jobs:
           version: 8
           run_install: true
 
-      - name: 修复 lockfile # 新增的步骤
-        run: pnpm install --resolution-only # 或者 pnpm install --resolution-only
-
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: pnpm
           
-
-
-
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
