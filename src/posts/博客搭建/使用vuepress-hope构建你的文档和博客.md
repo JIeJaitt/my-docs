@@ -1,4 +1,5 @@
 ---
+title: 使用vuepress-hope构建你的文档和博客
 icon: edit
 date: 2023-05-30 10:53:43
 category:
