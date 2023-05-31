@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: /logo.svg
+heroImage: https://pic.imgdb.cn/item/62d4beebf54cd3f937800bfa.jpg
 heroText: 你博客的名称
 heroFullScreen: true
 tagline: 你可以在这里放置你的口号与标语
