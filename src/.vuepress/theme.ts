@@ -66,40 +66,18 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      blog: {
-        description: "A FrontEnd programmer",
-        intro: "/intro.html",
-      },
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
       footer: "默认页脚",
 
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
-        intro: "/zh/intro.html",
+        name: "JIeJaitt",
+        avatar: "https://pic.imgdb.cn/item/6476f9c6f024cca173b042c0.jpg",
+        description: "a student",
+        intro: "/intro.html",
+        roundAvatar: true,
       },
 
-      // page meta
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
       },
