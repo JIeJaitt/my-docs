@@ -5,7 +5,7 @@ icon: home
 title: 博客主页
 heroText: 𝒥ℐℯ𝒥𝒶𝒾𝓉𝓉
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 𝒶 𝓈𝓉𝓊𝒹ℯ𝓃𝓉
 bgImage: https://wallpapercave.com/wp/wp5121792.jpg
 projects:
   - icon: project
