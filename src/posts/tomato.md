@@ -1,5 +1,4 @@
 ---
-cover: /assets/images/cover2.jpg
 icon: edit
 date: 2022-01-12
 category:
