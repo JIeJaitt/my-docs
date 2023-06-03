@@ -12,8 +12,6 @@ tag:
 
 在我们使用 vuepress-hope 搭建自己的站点的时候，出现了任何问题均可以查看作者的博客源代码仓库[Mister-Hope.github.io](https://github.com/Mister-Hope/Mister-Hope.github.io)。还有查看 vuepress-hope 的[官方文档](https://theme-hope.vuejs.press/zh/)。
 
-# 配置站点
-
 ## 多语言
 我觉得自己只需要中文，就注释了多语言选项，修改后的代码如下：
 ```ts
@@ -65,6 +63,11 @@ Running pnpm recursive install...
   To fix the lockfile, run 'pnpm install --no-frozen-lockfile'.
 Error: Command pnpm recursive install (cwd: undefined) exits with status 1
 ```
+
+
+
+
+
 
 ## 分享一些优秀的个人博客
 - https://www.elliot98.top/
