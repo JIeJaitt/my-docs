@@ -6,3 +6,4 @@ category:
 ---
 
 # 开源精选
+- [GORM 文档](gorm.md)

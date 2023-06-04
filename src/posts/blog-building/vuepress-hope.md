@@ -37,7 +37,7 @@ tag:
 ```
 
 
-# 升级你的 vuepress-hope
+## 升级你的 vuepress-hope
 我在升级vuepress的时候，出现了报错，最终发现还是源的设置问题，通过查看 GitHub issue，我通过修改源解决了问题，成功升级
 ```bash
 # 重新设置源
@@ -50,7 +50,7 @@ pnpm install
 pnpm dlx vp-update  
 ```
 
-# 问题日志
+## 问题日志
 我把deploy-docs.yml的pnpm版本设置成8就解决了这个问题
 ```bash
 Running pnpm recursive install...
@@ -64,8 +64,10 @@ Running pnpm recursive install...
 Error: Command pnpm recursive install (cwd: undefined) exits with status 1
 ```
 
-
-
+## 自动化部署
+- https://github.com/JamesIves/github-pages-deploy-action
+- https://github.com/jenkey2011/vuepress-deploy
+这两个脚本配置分别，有所不同，vuepress-hope默认支持的是第一个，第二个🈶️cname选项，可以在自动化部署的时候同时选择域名
 
 
 
