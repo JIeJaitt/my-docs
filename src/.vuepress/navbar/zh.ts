@@ -44,6 +44,7 @@ export const zhNavbar = navbar([
       "strawberry",
     ],
   },
+  { text: "Anime Nav", icon: "discover", link: "/anime/" },
   {
     text: "V2 文档",
     icon: "note",
