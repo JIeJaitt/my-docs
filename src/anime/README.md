@@ -15,6 +15,7 @@ actions:
     type: secondary
 
   - text: 🌸 老版网站
+    icon: /Users/jiejaitt/Desktop/my-docs/src/anime/assets/sakura.svg
     link: https://jiejaitt.gitee.io
     type: secondary
 
