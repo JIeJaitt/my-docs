@@ -14,14 +14,14 @@ actions:
     link: /intro.html
     type: secondary
 
-  - text: ✈️ 老版网站
+  - text: 🌸 老版网站
     link: https://jiejaitt.gitee.io
     type: secondary
 
 features:
   - title: 风车动漫
     icon: https://www.dm530w.org/tpsf/fc_pic/favicon.ico
-    details: 前后台都响应式、都支持暗色模式且能自动切换
+    details: 风车动漫专注于动漫收集与整理，所有资源均来源于网络，海量的动漫免费在线观看，免费下载，无需注册，更新及时，致力为所有动漫迷们提供最好看的动漫！
     link: https://www.dm530w.org/
 
   - title: 风车动漫
