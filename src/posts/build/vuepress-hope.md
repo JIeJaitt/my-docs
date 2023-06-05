@@ -67,6 +67,7 @@ Error: Command pnpm recursive install (cwd: undefined) exits with status 1
 ## 自动化部署
 - https://github.com/JamesIves/github-pages-deploy-action
 - https://github.com/jenkey2011/vuepress-deploy
+
 这两个脚本配置分别，有所不同，vuepress-hope默认支持的是第一个，第二个🈶️cname选项，可以在自动化部署的时候同时选择域名
 
 
