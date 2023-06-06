@@ -36,6 +36,10 @@ tag:
 
 ```
 
+## 图标支持
+建议直接用内置的，如果不用内置的得先清空前缀`iconPrefix`,然后你得去网上自己生成再导入资源，具体方法见文档。当你清空前缀之后就可以直接使用完整的图标名称了，比如`fa-sharp fa-light fa-house`。建议用fontawesome或者iconify，别的都不推荐
+
+文档参考：https://theme-hope.vuejs.press/zh/guide/interface/icon.html
 
 ## 升级你的 vuepress-hope
 我在升级vuepress的时候，出现了报错，最终发现还是源的设置问题，通过查看 GitHub issue，我通过修改源解决了问题，成功升级
@@ -67,6 +71,7 @@ Error: Command pnpm recursive install (cwd: undefined) exits with status 1
 ## 自动化部署
 - https://github.com/JamesIves/github-pages-deploy-action
 - https://github.com/jenkey2011/vuepress-deploy
+
 这两个脚本配置分别，有所不同，vuepress-hope默认支持的是第一个，第二个🈶️cname选项，可以在自动化部署的时候同时选择域名
 
 

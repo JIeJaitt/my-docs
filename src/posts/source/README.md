@@ -1,8 +1,9 @@
 ---
 title: 开源
-icon: open-source-line
-category:
-  - 开源精选
+icon: any
+index: false
+dir:
+  order: 4
 ---
 
 # 开源精选

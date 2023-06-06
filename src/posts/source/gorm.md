@@ -1,6 +1,6 @@
 ---
 title: 理解 Gorm 使用与源码分析 
-icon: edit
+icon: article
 date: 2022-01-05
 category:
   - 开源精选
