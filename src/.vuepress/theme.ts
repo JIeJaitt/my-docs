@@ -16,7 +16,7 @@ export default hopeTheme({
   },
   // 设置图标资源
   // https://theme-hope.vuejs.press/zh/guide/interface/icon.html#%E8%AE%BE%E7%BD%AE%E5%9B%BE%E6%A0%87%E8%B5%84%E6%BA%90
-  iconAssets: "iconfont", 
+  iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
