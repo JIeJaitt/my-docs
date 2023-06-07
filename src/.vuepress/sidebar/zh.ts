@@ -16,6 +16,13 @@ export const zhSidebar = sidebar({
       prefix: "posts/",
       children: "structure",
     },
+    {
+      text: "日志",
+      icon: "note",
+      prefix: "logbook/",
+      collapsible: true,
+      children: "structure",
+    },
     "intro",
     "slides",
   ],
