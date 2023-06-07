@@ -5,7 +5,7 @@ export const zhSidebar = sidebar({
     "",
     {
       text: "如何使用",
-      icon: "creative",
+      icon: "note",
       prefix: "demo/",
       link: "demo/",
       collapsible: true,
@@ -57,6 +57,13 @@ export const zhSidebar = sidebar({
       text: "日志",
       icon: "note",
       prefix: "logbook/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "期末",
+      icon: "note",
+      prefix: "ai/",
       collapsible: true,
       children: "structure",
     },
