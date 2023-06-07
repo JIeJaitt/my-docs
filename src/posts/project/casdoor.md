@@ -1,6 +1,6 @@
 ---
 title: 单点登录身份鉴权系统 casdoor 源码阅读
-icon: edit
+icon: article
 date: 2023-04-01 22:56:12
 category:
   - 项目实战
