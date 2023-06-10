@@ -12,7 +12,13 @@ tag:
 
 在我们使用 vuepress-hope 搭建自己的站点的时候，出现了任何问题均可以查看作者的博客源代码仓库[Mister-Hope.github.io](https://github.com/Mister-Hope/Mister-Hope.github.io)。还有查看 vuepress-hope 的[官方文档](https://theme-hope.vuejs.press/zh/)。
 
-最近使用发现三个问题：最后就是在文章vscode里面换行但是在页面里面是没换行的，暂时不知道hexo是怎么样的。
+## markdown 语法
+具体来说，Hexo使用了一个名为marked的Markdown渲染器，它可以将Markdown文本转换为HTML格式。而marked渲染器本身是基于Google的开源项目Markdown库实现的，该库支持标准的Markdown语法。
+
+而 vuepress 使用 markdown-it 来实现 markdown 语法，另外vuepress-hope额外配置了markdown语法增强插件来实现更多语法
+
+## 换行
+https://theme-hope.vuejs.press/zh/cookbook/markdown/demo.html#%E6%8D%A2%E8%A1%8C
 
 ## 永久链接
 可以使用：https://vuepress.github.io/zh/reference/frontmatter.html#permalink 来自定义文章永久链接
