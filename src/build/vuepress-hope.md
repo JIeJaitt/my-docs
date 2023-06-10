@@ -12,8 +12,10 @@ tag:
 
 在我们使用 vuepress-hope 搭建自己的站点的时候，出现了任何问题均可以查看作者的博客源代码仓库[Mister-Hope.github.io](https://github.com/Mister-Hope/Mister-Hope.github.io)。还有查看 vuepress-hope 的[官方文档](https://theme-hope.vuejs.press/zh/)。
 
-最近使用发现三个问题：第一个就是主页的文章分类下面一直只显示香蕉那几个东西；第二个就是文章最上层的链接语法只能通过读取Markdown替换；最后就是在文章vscode里面换行但是在页面里面是没换行的，暂时不知道hexo是怎么样的。
+最近使用发现三个问题：第一个就是主页的文章分类下面一直只显示香蕉那几个东西；最后就是在文章vscode里面换行但是在页面里面是没换行的，暂时不知道hexo是怎么样的。
 
+## 永久链接
+可以使用：https://vuepress.github.io/zh/reference/frontmatter.html#permalink 来自定义文章永久链接
 ## 多语言
 我觉得自己只需要中文，就注释了多语言选项，修改后的代码如下：
 ```ts
