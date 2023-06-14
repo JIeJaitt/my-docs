@@ -1,6 +1,6 @@
 ---
 title: Go1.21 速览：新内置函数 clear、min、max 和新标准库包 cmp！
-icon: article
+icon: edit
 date: 2023-06-10 15:16:14
 category:
   - Go 语言

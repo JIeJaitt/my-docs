@@ -1,6 +1,6 @@
 ---
 title: Go语言垃圾回收
-icon: article
+icon: edit
 date: 2022-06-10 15:16:14
 category:
   - Go 语言
