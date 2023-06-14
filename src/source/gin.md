@@ -199,3 +199,53 @@ go run main.go
 ```
 
 现在，您的Golang API服务将在http://localhost:8080上运行。您可以使用curl命令或Postman等API测试工具来测试您的API。
+
+
+## c.html
+
+```go
+package main
+
+import (
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+)
+
+func main() {
+	router := gin.Default()
+	router.LoadHTMLGlob("*.html")
+	// 处理 GET 请求，返回一个包含动态数据的 HTML 页面
+	router.GET("/", func(c *gin.Context) {
+		// 准备需要渲染到 HTML 页面中的数据
+		data := gin.H{
+			"title":   "欢迎访问首页",
+			"content": "这是一个使用 Gin 框架渲染的页面。",
+			"author":  "Gin 爱好者",
+		}
+
+		// 调用 HTML 方法，将数据渲染到 login.html 模板中
+		c.HTML(http.StatusOK, "index.html", data)
+	})
+
+	router.Run(":8080")
+}
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{.title}}</title>
+</head>
+<body>
+<h1>{{.title}}</h1>
+<p>{{.content}}</p>
+<p>作者：{{.author}}</p>
+</body>
+</html>
+```
+
