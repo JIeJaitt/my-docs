@@ -1,7 +1,7 @@
 # 个人博客 / Personal Blog
 
 [![Author: JIeJaitt](https://img.shields.io/badge/Author-JIeJaitt-blue.svg?style=for-the-badge)](https://jiejaitt.tech)
-[![License](https://img.shields.io/github/license/JIeJaitt/JIeJaitt.github.io?style=for-the-badge)](https://github.com/JIeJaitt/jiejaitt.github.io/LICENSE)
+[![License](https://img.shields.io/github/license/JIeJaitt/jiejaitt.github.io?style=for-the-badge)](https://github.com/JIeJaitt/jiejaitt.github.io/blob/master/LICENSE)
 
 使用 [VuePress2](https://vuejs.press/zh/) 与 [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/) 搭建的个人博客
 
