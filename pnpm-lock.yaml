@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@vuepress/client':
-    specifier: 2.0.0-rc.9
+    specifier: ^2.0.0-rc.9
     version: 2.0.0-rc.9
   vue:
     specifier: ^3.4.27
