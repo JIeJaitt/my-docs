@@ -14,7 +14,7 @@ export default hopeTheme({
   },
   // 设置图标资源
   // https://theme-hope.vuejs.press/zh/guide/interface/icon.html#%E8%AE%BE%E7%BD%AE%E5%9B%BE%E6%A0%87%E8%B5%84%E6%BA%90
-  iconAssets: "iconfont", 
+  iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.svg",
 
@@ -58,7 +58,11 @@ export default hopeTheme({
       Whatsapp: "https://example.com",
       Youtube: "https://www.youtube.com/@jiejaitt",
       Zhihu: "https://www.zhihu.com/people/jiejaitt",
-      MrHope: ["https://mrhope.site", MR_HOPE_AVATAR],
+      VuePressThemeHope: {
+        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+        link: "https://theme-hope.vuejs.press",
+      },
+      // MrHope: ["https://mrhope.site", MR_HOPE_AVATAR],
     },
   },
 
@@ -99,37 +103,40 @@ export default hopeTheme({
     blog: true,
 
     comment: {
-      // @ts-expect-error: You should generate and use your own comment service
-      provider: "Giscus",
+      provider: "Waline",
+      serverURL: "https://waline-comment.vuejs.press",
     },
 
-    // all features are enabled for demo, only preserve features you need here
+    // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
       chart: true,
-      codetabs: true,
+      component: true,
       demo: true,
       echarts: true,
-      figure: true,
       flowchart: true,
       gfm: true,
-      imgLazyload: true,
-      imgSize: true,
       include: true,
-      katex: true,
+      kotlinPlayground: true,
       mark: true,
+      markmap: true,
       mermaid: true,
       playground: {
-        presets: ["ts", "vue"],
+        presets: ["ts", "vue", "unocss"],
       },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      sandpack: true,
+      spoiler: true,
       stylize: [
         {
           matcher: "Recommended",
-          replacer: ({ tag }) => {
+          replacer: ({
+            tag,
+          }): {
+            tag: string;
+            attrs: Record<string, string>;
+            content: string;
+          } | void => {
             if (tag === "em")
               return {
                 tag: "Badge",
@@ -141,7 +148,7 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
+      tasklist: true,
       vPre: true,
       vuePlayground: true,
     },
@@ -151,7 +158,7 @@ export default hopeTheme({
     pwa: {
       favicon: "/favicon.ico",
       cacheHTML: true,
-      cachePic: true,
+      cacheImage: true,
       appendBase: true,
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
@@ -189,6 +196,7 @@ export default hopeTheme({
         shortcuts: [
           {
             name: "Demo",
+            // eslint-disable-next-line @typescript-eslint/naming-convention
             short_name: "Demo",
             url: "/demo/",
             icons: [
