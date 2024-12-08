@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://jiejaitt.tech/sitemap.xml
+Sitemap: https://docs.jiejaitt.top/sitemap.xml
