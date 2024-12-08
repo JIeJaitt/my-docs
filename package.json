@@ -13,12 +13,12 @@
   "devDependencies": {
     "@vue/repl": "^4.4.2",
     "@vuepress/bundler-vite": "2.0.0-rc.18",
-    "@vuepress/plugin-markdown-image": "2.0.0-rc.63",
-    "@vuepress/plugin-markdown-math": "2.0.0-rc.63",
-    "@vuepress/plugin-markdown-tab": "2.0.0-rc.63",
-    "@vuepress/plugin-pwa": "2.0.0-rc.63",
-    "@vuepress/plugin-revealjs": "2.0.0-rc.63",
-    "@vuepress/plugin-shiki": "2.0.0-rc.63",
+    "@vuepress/plugin-markdown-image": "2.0.0-rc.30",
+    "@vuepress/plugin-markdown-math": "2.0.0-rc.30",
+    "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
+    "@vuepress/plugin-pwa": "1.9.10",
+    "@vuepress/plugin-revealjs": "2.0.0-rc.47",
+    "@vuepress/plugin-shiki": "2.0.0-rc.0",
     "chart.js": "^4.4.7",
     "echarts": "^5.5.1",
     "flowchart.js": "^1.18.0",
@@ -34,6 +34,12 @@
   "dependencies": {
     "@vuepress/helper": "2.0.0-rc.3",
     "@vuepress/plugin-comment": "2.0.0-rc.63",
-    "@waline/client": "^3.4.1"
+    "@waline/client": "^3.4.1",
+    "kotlin-playground": "^1.30.0",
+    "markmap-lib": "^0.17.2",
+    "markmap-toolbar": "^0.17.2",
+    "sandpack-vue3": "^3.1.12",
+    "vuepress-plugin-components": "2.0.0-rc.60",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.60"
   }
 }
