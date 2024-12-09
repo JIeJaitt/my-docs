@@ -13,34 +13,34 @@
   "devDependencies": {
     "@vue/repl": "^4.4.2",
     "@vuepress/bundler-vite": "2.0.0-rc.18",
-    "@vuepress/plugin-markdown-image": "2.0.0-rc.30",
-    "@vuepress/plugin-markdown-math": "2.0.0-rc.30",
-    "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
-    "@vuepress/plugin-pwa": "1.9.10",
-    "@vuepress/plugin-revealjs": "2.0.0-rc.47",
-    "@vuepress/plugin-shiki": "2.0.0-rc.0",
+    "@vuepress/plugin-markdown-image": "2.0.0-rc.65",
+    "@vuepress/plugin-markdown-math": "2.0.0-rc.65",
+    "@vuepress/plugin-markdown-tab": "2.0.0-rc.65",
+    "@vuepress/plugin-pwa": "2.0.0-rc.65",
+    "@vuepress/plugin-revealjs": "2.0.0-rc.65",
+    "@vuepress/plugin-shiki": "2.0.0-rc.65",
     "chart.js": "^4.4.7",
     "echarts": "^5.5.1",
     "flowchart.js": "^1.18.0",
     "flowchart.ts": "^3.0.1",
-    "katex": "^0.16.11",
+    "katex": "^0.16.14",
     "mermaid": "^11.4.1",
     "reveal.js": "^5.1.0",
     "sass-embedded": "^1.82.0",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.18",
-    "vuepress-theme-hope": "2.0.0-rc.61"
+    "vuepress-theme-hope": "2.0.0-rc.63"
   },
   "dependencies": {
     "@vuepress/helper": "2.0.0-rc.3",
-    "@vuepress/plugin-comment": "2.0.0-rc.63",
+    "@vuepress/plugin-comment": "2.0.0-rc.65",
     "@waline/client": "^3.4.1",
     "kotlin-playground": "^1.30.0",
     "markmap-lib": "^0.17.2",
     "markmap-toolbar": "^0.17.2",
     "sandpack-vue3": "^3.1.12",
     "sass": "^1.82.0",
-    "vuepress-plugin-components": "2.0.0-rc.60",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.60"
+    "vuepress-plugin-components": "2.0.0-rc.63",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.63"
   }
 }
