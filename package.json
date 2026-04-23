@@ -1,46 +1,25 @@
 {
-  "name": "blog",
-  "version": "2.0.0",
+  "name": "vuepress-theme-hope-template",
   "description": "A project of vuepress-theme-hope",
+  "version": "2.0.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build src",
-    "docs:clean-dev": "vuepress dev src --clean-cache",
-    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vue/repl": "^4.5.1",
     "@vuepress/bundler-vite": "2.0.0-rc.28",
-    "@vuepress/plugin-markdown-image": "2.0.0-rc.128",
-    "@vuepress/plugin-markdown-math": "2.0.0-rc.128",
-    "@vuepress/plugin-markdown-tab": "2.0.0-rc.128",
-    "@vuepress/plugin-pwa": "2.0.0-rc.128",
-    "@vuepress/plugin-revealjs": "2.0.0-rc.128",
-    "@vuepress/plugin-shiki": "2.0.0-rc.128",
-    "chart.js": "^4.4.9",
-    "echarts": "^5.6.0",
-    "flowchart.js": "^1.18.0",
-    "flowchart.ts": "^3.0.1",
-    "katex": "^0.16.22",
-    "mermaid": "^11.6.0",
-    "reveal.js": "^5.2.1",
-    "vue": "^3.5.32",
+    "sass-embedded": "^1.98.0",
+    "vue": "^3.5.31",
     "vuepress": "2.0.0-rc.28",
     "vuepress-theme-hope": "2.0.0-rc.106"
   },
-  "dependencies": {
-    "@vuepress/helper": "2.0.0-rc.3",
-    "@vuepress/plugin-comment": "2.0.0-rc.128",
-    "@waline/client": "^3.5.7",
-    "kotlin-playground": "^1.30.0",
-    "markmap-lib": "^0.17.2",
-    "markmap-toolbar": "^0.17.2",
-    "sandpack-vue3": "^3.1.12",
-    "sass": "^1.89.0",
-    "sass-embedded": "^1.89.0",
-    "vuepress-plugin-components": "2.0.0-rc.106",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.106"
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
