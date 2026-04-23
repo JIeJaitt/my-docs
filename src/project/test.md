@@ -618,7 +618,7 @@ int main() {
 希望这些步骤能够帮助你在M1 Mac上正确编译和运行你的项目。如果你遇到任何问题，请随时反馈具体的错误信息，以便进一步协助你解决问题。
 
 You: 
-- ![已上传的图片](https://files.oaiusercontent.com/file-VKu8bczysP0lVIPN4AW3D996?se=2024-05-18T16%3A19%3A20Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D299%2C%20immutable&rscd=attachment%3B%20filename%3Dimage.png&sig=gaKIG1KXyTAfDOSuSuXVTRABQ8DDsx9OQFCK2LWit1Y%3D) 
+![已上传的图片](https://files.oaiusercontent.com/file-VKu8bczysP0lVIPN4AW3D996?se=2024-05-18T16%3A19%3A20Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D299%2C%20immutable&rscd=attachment%3B%20filename%3Dimage.png&sig=gaKIG1KXyTAfDOSuSuXVTRABQ8DDsx9OQFCK2LWit1Y%3D) 
 
 我这样安装的onnxruntime_cxx_api包并没有被正确的识别，应该看一下我项目引用的其他的c++头文件在电脑上什么位置吧，至于我brew安装的onnxruntime_cxx_api包并没有被正确的识别，那我c++该怎么下载这个包呢？
 
